@@ -12,7 +12,7 @@ import "../styles/auth.scss";
 export function NewRoom() {
   const { user } = useAuth();
   const history = useHistory();
-  const [newRoom, setNewRoom] = useState('');
+  const [ newRoom, setNewRoom ] = useState("");
 
   async function handleCreateRoom(event: FormEvent) {
     event.preventDefault();
@@ -23,10 +23,10 @@ export function NewRoom() {
     const roomRef = database.ref("rooms");
     const firebaseRoom = await roomRef.push({
       title: newRoom,
-      authId: user?.id,
+      authorId: user?.id,
     });
 
-    history.push(`/rooms/${firebaseRoom.key}`);
+    history.push(`/rooms/${firebaseRoom.key}`); 
   }
 
   return (
