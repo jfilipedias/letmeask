@@ -1,14 +1,22 @@
 import copyImg from "../assets/images/copy.svg"
 import "../styles/room-code.scss";
 
-export function RoomCode() {
+type RoomCodeProps = {
+  code: string
+} 
+
+export function RoomCode(props: RoomCodeProps) {
+  function CopyRoomCodeToClipboard() {
+    navigator.clipboard.writeText(props.code)
+  }
+
   return (
-    <button className="room-code">
+    <button className="room-code" onClick={CopyRoomCodeToClipboard}>
       <div>
         <img src={copyImg} alt="Copy room code" />
       </div>
 
-      <span>Sala #1892731276</span>
+      <span>Sala #{props.code}</span>
     </button>
   )
 }
