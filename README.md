@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Let me ask
+A question/answer application developed with ReactJS in the NLW 💬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup Environment
+
+You will need to setup the following environment variables to using the firebase service:
+```env
+REACT_APP_API_KEY
+REACT_APP_AUTH_DOMAIN
+REACT_APP_DATABASE_URL
+REACT_APP_PROJECT_ID
+REACT_APP_STORAGE_BUCKET
+REACT_APP_MESSAGING_SENDER_ID
+REACT_APP_APP_ID
+```
 
 ## Available Scripts
 
