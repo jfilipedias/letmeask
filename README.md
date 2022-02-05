@@ -1,6 +1,12 @@
 <h1 align="center">
-  <img alt="letmeask" src=".github/assets/logo.svg" width="420px" /> 
+  <img alt="letmeask" src=".github/assets/logo.svg" width="400px" /> 
 </h1>
+
+<p align="center">
+  <img alt="Developer" src="https://img.shields.io/badge/developer-jfilipedias-blue">
+  <img alt="GitHub" src="https://img.shields.io/github/license/jfilipedias/letmeask">
+</p>
+<br>
 
 A Q&A web application developed with [ReactJS](https://reactjs.org/) at Next Level Week hosted by [Rocketseat](https://www.rocketseat.com.br/).
 
