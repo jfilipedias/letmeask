@@ -41,3 +41,6 @@ Start the project:
 ```shell
 $ yarn start 
 ```
+
+## License
+This project is licensed under the MIT. Consult the [LICENSE](LICENSE) for more information.
